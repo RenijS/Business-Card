@@ -91,6 +91,10 @@ p {
   margin-bottom: 0.5rem;
 }
 
+.profBtnContainer a {
+  width: 100%;
+}
+
 .mainContainer button {
   display: flex;
   flex-direction: row;
@@ -149,6 +153,7 @@ p {
   margin-top: 0.4rem;
 }
 
-button:hover {
+button:hover,
+a:hover {
   cursor: pointer;
 }

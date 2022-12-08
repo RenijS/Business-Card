@@ -9,12 +9,20 @@ export default function Profile() {
       <p className="title">Graduate Developer</p>
       <p className="website">website</p>
       <div className="profBtnContainer">
-        <button className="mailBtn">
-          <img src={Mail} alt="mail" /> Email
-        </button>
-        <button className="linkedinBtn">
-          <img src={LinkedIn} alt="linkedin" /> LinkedIn
-        </button>
+        <a href="mailto: renijshrestha8@gmail.com">
+          <button className="mailBtn">
+            <img src={Mail} alt="mail" /> Email
+          </button>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/renij-shrestha-a2ab53210/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="linkedinBtn">
+            <img src={LinkedIn} alt="linkedin" /> LinkedIn
+          </button>
+        </a>
       </div>
     </div>
   );
